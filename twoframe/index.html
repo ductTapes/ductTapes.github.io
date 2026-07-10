@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support — TwoFrame</title>
+<meta name="description" content="TwoFrame support and FAQ. Record portrait and landscape video simultaneously.">
+<style>
+  :root{--bg:#0d0820;--card:#160f30;--fg:#eae6f5;--muted:#a99fc7;--acc:#c96fe0;--line:#2a2150}
+  @media (prefers-color-scheme:light){:root{--bg:#f6f4fb;--card:#fff;--fg:#1c1240;--muted:#5c5478;--acc:#8a3fb0;--line:#e6e1f2}}
+  *{box-sizing:border-box}
+  body{margin:0;font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--fg)}
+  .wrap{max-width:760px;margin:0 auto;padding:48px 22px 80px}
+  header{display:flex;align-items:center;gap:14px;margin-bottom:8px}
+  .logo{width:44px;height:44px;border-radius:11px;background:linear-gradient(135deg,#1c1240,#0d0820);position:relative;flex:0 0 auto;border:1px solid var(--line)}
+  .logo::before,.logo::after{content:"";position:absolute;inset:0;margin:auto;border-radius:3px}
+  .logo::before{width:26px;height:11px;background:#82d0f8;opacity:.75}
+  .logo::after{width:11px;height:26px;background:#e89aee;opacity:.75}
+  h1{font-size:1.7rem;margin:.2em 0}
+  h2{font-size:1.15rem;margin:2em 0 .4em;color:var(--acc)}
+  .lead{color:var(--muted);font-size:1.02rem}
+  .q{font-weight:600;margin:1.3em 0 .1em}
+  a{color:var(--acc)}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:6px 26px 26px;margin-top:22px}
+  .contact{background:linear-gradient(135deg,rgba(201,111,224,.14),rgba(75,174,232,.12));border:1px solid var(--line);border-radius:14px;padding:22px 26px;margin-top:26px}
+  hr{border:0;border-top:1px solid var(--line);margin:56px 0 36px}
+  footer{margin-top:48px;color:var(--muted);font-size:.85rem;text-align:center}
+  footer a{color:var(--muted)}
+  .lang{color:var(--muted);font-size:.85rem;letter-spacing:.04em;text-transform:uppercase;margin:0 0 .5em}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="logo" aria-hidden="true"></div>
+    <div><h1 style="margin:0">TwoFrame</h1><div class="lang" style="margin:2px 0 0">Support</div></div>
+  </header>
+  <p class="lead">Record portrait and landscape video simultaneously — one tap, two formats, ready for any platform.</p>
+
+  <div class="card">
+    <p class="lang">English</p>
+    <h2>Frequently Asked Questions</h2>
+
+    <p class="q">Where are my recordings saved?</p>
+    <p>All videos are saved directly to your device’s Photos / Camera Roll. TwoFrame does not store anything on external servers.</p>
+
+    <p class="q">Why does TwoFrame need camera and microphone access?</p>
+    <p>Camera access is required to record video. Microphone access is required to capture audio in your recordings. TwoFrame uses these only when you are actively recording — nothing is captured in the background.</p>
+
+    <p class="q">Does TwoFrame collect any personal data?</p>
+    <p>No. TwoFrame does not collect, transmit, or store any personal data. Everything stays on your device.</p>
+
+    <p class="q">The app crashes on launch — what do I do?</p>
+    <p>Try the following: (1) Restart your iPhone. (2) Delete and reinstall TwoFrame. (3) Ensure your iOS version is up to date. If the issue persists, contact us.</p>
+
+    <p class="q">Can I record in 4K?</p>
+    <p>Recording quality depends on your device’s hardware capabilities and iOS settings. TwoFrame uses the native camera API and supports the resolutions available on your device.</p>
+  </div>
+
+  <hr>
+
+  <div class="card">
+    <p class="lang">Русский</p>
+    <h2>Часто задаваемые вопросы</h2>
+
+    <p class="q">Где сохраняются мои записи?</p>
+    <p>Все видео сохраняются напрямую в Фото / Камеру на вашем устройстве. TwoFrame не хранит ничего на внешних серверах.</p>
+
+    <p class="q">Зачем TwoFrame нужен доступ к камере и микрофону?</p>
+    <p>Доступ к камере необходим для записи видео, к микрофону — для записи звука. TwoFrame использует эти разрешения только во время активной записи — фоновый сбор данных отсутствует.</p>
+
+    <p class="q">TwoFrame собирает личные данные?</p>
+    <p>Нет. TwoFrame не собирает, не передаёт и не хранит никакие персональные данные. Всё остаётся на вашем устройстве.</p>
+
+    <p class="q">Приложение вылетает при запуске — что делать?</p>
+    <p>Попробуйте: (1) Перезагрузить iPhone. (2) Удалить и переустановить TwoFrame. (3) Убедиться, что iOS обновлена. Если проблема сохраняется — напишите нам.</p>
+
+    <p class="q">Можно ли снимать в 4K?</p>
+    <p>Качество записи зависит от возможностей вашего устройства и настроек iOS. TwoFrame использует нативное API камеры и поддерживает доступные разрешения.</p>
+  </div>
+
+  <div class="contact">
+    <h2 style="margin-top:.2em">Contact us · Связаться</h2>
+    <p>Having trouble or have a suggestion? / Возникли проблемы или есть предложения?<br>
+    Email: <a href="mailto:grishchenko-yuriy1996@yandex.com">grishchenko-yuriy1996@yandex.com</a></p>
+    <p style="color:var(--muted);font-size:.92rem">We typically respond within 1–3 business days. / Обычно отвечаем в течение 1–3 рабочих дней.</p>
+  </div>
+
+  <footer>
+    <p><a href="index.html">Support</a> · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></p>
+    <p>© 2025 Yuriy Grishchenko</p>
+  </footer>
+</div>
+</body>
+</html>
